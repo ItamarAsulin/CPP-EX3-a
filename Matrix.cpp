@@ -17,16 +17,16 @@
     }
 
     //void operators
-    void zich::Matrix::operator+=(const Matrix &other) const{
+    void zich::Matrix::operator+=(const Matrix &other){
 
     }
-    void zich::Matrix::operator-=(const Matrix &other) const{
+    void zich::Matrix::operator-=(const Matrix &other){
 
     }
-    void zich::Matrix::operator*=(const double scalar) const{
+    void zich::Matrix::operator*=(const double scalar){
 
     }
-    void zich::Matrix::operator*=(const Matrix other) const{
+    void zich::Matrix::operator*=(const Matrix other) {
 
     }
     //Matrix operator

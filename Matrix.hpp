@@ -20,10 +20,10 @@ namespace zich {
         ~Matrix();
 
         //void operators
-        void operator+=(const Matrix &other) const;
-        void operator-=(const Matrix &other) const;
-        void operator*=(const double scalar) const;
-        void operator*=(const Matrix other) const;
+        void operator+=(const Matrix &other);
+        void operator-=(const Matrix &other);
+        void operator*=(const double scalar);
+        void operator*=(const Matrix other) ;
 
         //Matrix operators
         Matrix operator-() const;
