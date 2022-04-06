@@ -31,10 +31,10 @@
     }
     //Matrix operator
 
-    zich::Matrix zich::Matrix::operator-() const{
+    zich::Matrix zich::Matrix::operator-(){
         return *this;
     }
-   zich:: Matrix zich::Matrix::operator+() const{
+   zich:: Matrix zich::Matrix::operator+(){
        return *this;
     }
     //Matrix& operator

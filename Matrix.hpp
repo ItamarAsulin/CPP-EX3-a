@@ -26,8 +26,8 @@ namespace zich {
         void operator*=(const Matrix other) ;
 
         //Matrix operators
-        Matrix operator-() const;
-        Matrix operator+() const;
+        Matrix operator-();
+        Matrix operator+();
 
         //Matrix& operators
         Matrix& operator++();
